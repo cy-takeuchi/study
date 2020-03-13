@@ -10,7 +10,7 @@ WeWork
 */
 const xlsx = require("xlsx");
 
-const filePath = "../点検結果表サンプル.xlsx";
+const filePath = "./点検結果表サンプル.xlsx";
 const sheetName = "点検結果表【建築物】";
 
 // ファイル名とシート名を渡す必要があるということだけ知っていれば大丈夫

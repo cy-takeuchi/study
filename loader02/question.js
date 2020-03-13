@@ -7,7 +7,7 @@
 */
 const xlsx = require("xlsx");
 
-const filePath = "../点検結果表サンプル.xlsx";
+const filePath = "./点検結果表サンプル.xlsx";
 const sheetName = "点検結果表【建築物】";
 
 const book = xlsx.readFile(filePath);
