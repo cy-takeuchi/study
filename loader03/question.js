@@ -36,4 +36,4 @@ for (let key of Object.keys(param)) {
 
 // 文字列演算子「+」については以下のURLを参照
 // https://developer.mozilla.org/ja/docs/JavaScript/Reference/Operators/String_Operators
-console.log("xxx" + result.join("xxx") + "xxx");
+console.log('xxx' + result.join('xxx') + 'xxx');
