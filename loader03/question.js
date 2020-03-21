@@ -16,13 +16,13 @@ const sheet = book.Sheets[sheetName];
 
 const param = {
   施設ID: "G3",
-  施設IDa: "G4",
-  施設IDb: "G5",
-  施設IDc: "G6",
+  全体施設名: "G4",
+  棟名: "G5",
+  施設名: "G6"
 };
 
 // アウトプットを出力するために配列を使う
-const result = []
+const result = [];
 
 for (let key of Object.keys(param)) {
   const location = param[key];
@@ -36,4 +36,4 @@ for (let key of Object.keys(param)) {
 
 // 文字列演算子「+」については以下のURLを参照
 // https://developer.mozilla.org/ja/docs/JavaScript/Reference/Operators/String_Operators
-console.log('xxx' + result.join('xxx') + 'xxx');
+console.log("xxx" + result.join("xxx") + "xxx");
