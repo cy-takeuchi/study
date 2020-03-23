@@ -25,15 +25,11 @@ const param = {
 };
 
 for (let key of Object.keys(param)) {
-  console.log("key:", key);
   const location = param[key];
-  console.log("location:", location);
 
   const cell = sheet[location];
   // cell.vに値がある
   // cell.tやcell.wについては今は知らなくて大丈夫
-  console.log("cell:", cell);
 
   const value = cell.v;
-  console.log("value:", value);
 }
