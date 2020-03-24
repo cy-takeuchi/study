@@ -32,4 +32,5 @@ for (let key of Object.keys(param)) {
   // cell.tやcell.wについては今は知らなくて大丈夫
 
   const value = cell.v;
+  console.log(value);
 }
